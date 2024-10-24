@@ -34,7 +34,7 @@ const openFAQ = (num) => {
   const answer = faqs[num].getElementsByClassName("answer");
   answer[0].style.display = "block";
   document.getElementsByClassName("button")[num].style.backgroundImage =
-    "url('/assets/images/icon-minus.svg')";
+    "url('./assets/images/icon-minus.svg')";
 };
 
 const createButton = (index) => {
