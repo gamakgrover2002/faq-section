@@ -51,6 +51,7 @@ body {
   height: 20px;
   position: relative;
   bottom: 5px;
+  background-color: white;
 }
 .button:hover {
   cursor: pointer;
