@@ -27,7 +27,7 @@ const closeFAQ = (num) => {
   const answer = faqs[num].getElementsByClassName("answer");
   answer[0].style.display = "none";
   document.getElementsByClassName("button")[num].style.backgroundImage =
-    "url('/assets/images/icon-plus.svg')";
+    "url('./assets/images/icon-plus.svg')";
 };
 const openFAQ = (num) => {
   const faqs = document.getElementsByClassName("faqQuestions");
