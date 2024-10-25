@@ -12,15 +12,14 @@ body {
 }
 .faq {
   position: absolute;
-  top: 15vh;
+  top: 16vh;
   left: 30vw;
   padding: 20px;
-  width: 20vw;
   background-color: white;
   border-radius: 20px;
   z-index: 2;
   transition: all 0.3s ease-in-out;
-  width: 35vw;
+  width: 45vw;
 }
 .faqQuestions {
   list-style: none;
